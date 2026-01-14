@@ -1,22 +1,24 @@
-📂 Indexes
+# 📂 Views
 
-This folder contains SQL Server indexing examples designed to improve query performance.
+This folder contains SQL Server view examples.
 
-Indexes here are query-driven, meaning each index is created to support a specific query pattern.
+The views demonstrate both **foundational** and **advanced**
+SQL Server concepts.
 
-📄 posts_indexes.sql
-Contains indexes related to the Posts table:
+---
 
-✔ Basic Nonclustered Index
-Improves filtering and sorting on Score
+## 🧩 Concepts Covered
+- Basic abstraction using views
+- JOIN-based views
+- Aggregate views
+- Indexed views with SCHEMABINDING
+- Partitioned views using UNION ALL
+- Updatable views
+- Data integrity using CHECK OPTION
 
-✔ Filtered Covering Index
-Targets high-score posts only
-Reduces index size
-Eliminates key lookups
+---
 
-🧩 Concepts Covered
-Nonclustered Index
-Filtered Index
-Covering Index
-Index Seek vs Table Scan
+## 🎯 Purpose
+- Improve query readability and reuse
+- Demonstrate professional SQL Server design
+- Showcase performance-aware database patterns
