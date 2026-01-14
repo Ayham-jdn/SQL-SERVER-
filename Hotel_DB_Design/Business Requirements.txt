@@ -1,0 +1,49 @@
+Hotel Reservation Management System
+
+A luxury hotel chain wants to design a database system to handle its
+reservations, guests, rooms, and payments efficiently The chain operates
+several hotels:
+● Each identified by a unique hotel ID, name, star rating, address, city, and contact
+number.
+● Each hotel has a manager responsible for operations, and every manager is also
+recorded in the system as a staff member.
+
+Each hotel contains multiple rooms:
+● Every room has a room number unique within that hotel, along with details such as
+room type (single, double, suite), capacity, daily rate, and availability status.
+● Some rooms may offer additional amenities like sea view, balcony, or kitchen, which
+should also be stored.
+
+Guests are the central focus of the system:
+● Each guest has a unique guest ID, full name, date of birth, contact details, nationality,
+and ID/passport number.
+● A guest can make multiple reservations, and some reservations can include more
+than one guest (such as families or business groups).
+
+A reservation is made for one or more rooms in a specific hotel:
+● It includes details such as reservation ID, check-in date, check-out date, booking date,
+number of adults and children, total price, and reservation status (e.g., confirmed,
+checked-in, canceled, completed).
+● Because guests may share a reservation, the relationship between guests and
+reservations must support multiple guests per booking.
+
+Each reservation can have one or more payments associated with it:
+● Payments record payment ID, date, amount, method (credit card, cash, online), and
+confirmation number.
+● Sometimes, a single reservation may be paid in multiple installments, while one
+payment may cover multiple reservations if handled by travel agencies.
+
+The hotel also employs several staff members:
+● Each identified by a staff ID. For each staff member, the system should record full
+name, position (e.g., receptionist, cleaner, manager), salary, and the hotel they work
+at.
+● Staff can be assigned to assist with multiple reservations — for example, a
+receptionist handles check-in/check-out, and a room service staff member may serve
+multiple guests.
+
+Additionally, guests may request services during their stay, such as laundry,
+spa, or transportation
+● Each service request should record a service ID, service name, request date, charge,
+and staff member who provided it
+● Since one reservation can have many service requests, and staff members can fulfill
+requests for many reservations, this relationship must be carefully modeled.
