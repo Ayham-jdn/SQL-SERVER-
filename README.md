@@ -1,22 +1,36 @@
-📦 SQL Server – Database Scripts Repository
+# SQL Server Learning Repository
 
-This repository contains organized SQL Server scripts covering different database concepts and performance techniques.
+This repository contains **SQL Server scripts** for **learning and practice purposes**.  
+It is designed to explore and experiment with different SQL Server concepts, best practices, and performance techniques.
 
-Each folder focuses on a specific SQL topic, with practical examples and real-world use cases.
+---
 
+## ⚠️ Important Notice
 
-🎯 Goals of This Repository
+- All scripts are for **educational purposes only**.  
+- The database used (`StackOverflow2010`) is a **sample dataset downloaded for learning**.  
+- Do **not use these scripts directly in production**.  
+- Some scripts demonstrate advanced features such as **indexed views**, **CHECK OPTION**, **partitioned views**, etc., purely for practice.
 
-Practice professional SQL Server design
+---
 
-Apply performance optimization techniques
+## 🎯 Purpose
 
-Keep SQL scripts clean, reusable, and well-documented
+- Practice SQL Server concepts and best practices  
+- Understand performance optimization techniques  
+- Explore query-driven database design
 
+---
 
-⚠️ Notes
+## 🗂 Repository Structure (general)
 
-Scripts are written for learning and demonstration purposes
+The repository is organized into folders covering different SQL concepts.  
+Folders may include, but are not limited to:
 
-Always test indexes and optimizations on real workloads before using in production
+- Indexes  
+- Views  
+- Stored Procedures  
+- Functions  
+- ERD (Entity Relationship Diagrams)
 
+> **Note:** The repository is dynamic, and new scripts may be added regularly. The above folder list is general and not exhaustive.
