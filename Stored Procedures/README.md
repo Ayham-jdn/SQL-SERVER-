@@ -1,6 +1,6 @@
-# StackOverflow2010 SQL Stored Procedures
+# StackOverflow SQL Stored Procedures
 
-This repository contains a set of **SQL Server Stored Procedures** created for the StackOverflow2010 database.  
+This repository contains a set of **SQL Server Stored Procedures** created for the StackOverflow database.  
 The procedures cover common operations such as retrieving user statistics, analyzing activity, managing posts, badges, and generating reports.
 
 All procedures are designed with **modular structure**, **error handling**, and **output parameters** where appropriate.  
@@ -36,6 +36,7 @@ All procedures are designed with **modular structure**, **error handling**, and 
 
 ## Example Usage
 
-### 1. Get Recent Badges
+### 13. Generate User Report
 ```sql
-EXEC sp_GetRecentBadges @DaysBack = 7;
+EXEC sp_GenerateUserReport 2;
+
