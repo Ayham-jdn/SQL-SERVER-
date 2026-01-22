@@ -1,7 +1,7 @@
-# StackOverflow2010 SQL Triggers
+# StackOverflow SQL Triggers
 
 ## Overview
-This repository contains SQL Server triggers for the `StackOverflow2010` database. The triggers manage auditing, validation, soft deletes, and statistics for key tables: `Posts`, `Comments`, `Users`, `Badges`.
+This folder contains SQL Server triggers for the `StackOverflow` database. The triggers manage auditing, validation, soft deletes, and statistics for key tables: `Posts`, `Comments`, `Users`, `Badges`.
 
 ## Features
 
@@ -30,3 +30,4 @@ This repository contains SQL Server triggers for the `StackOverflow2010` databas
 1. Create all supporting tables first (`CreatedPostLog`, `UserTrakLog`, `DeletedPosts`, `PostStatistics`, `DDLAuditLog`)
 2. Create all triggers using the SQL scripts in their respective folders
 3. Test triggers with sample INSERT/UPDATE/DELETE statements
+
