@@ -1,6 +1,6 @@
 # StackOverflow SQL Stored Procedures
 
-This repository contains a set of **SQL Server Stored Procedures** created for the StackOverflow database.  
+This folder contains a set of **SQL Server Stored Procedures** created for the StackOverflow database.  
 The procedures cover common operations such as retrieving user statistics, analyzing activity, managing posts, badges, and generating reports.
 
 All procedures are designed with **modular structure**, **error handling**, and **output parameters** where appropriate.  
@@ -39,4 +39,5 @@ All procedures are designed with **modular structure**, **error handling**, and 
 ### 13. Generate User Report
 ```sql
 EXEC sp_GenerateUserReport 2;
+
 
