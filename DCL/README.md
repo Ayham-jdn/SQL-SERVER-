@@ -39,7 +39,3 @@ This repository contains SQL Server practice scripts focusing on:
 - `DENY` overrides permissions granted through roles
 - Schema-level permissions (`SCHEMA::dbo`) are used for scalability
 - Triggers use `inserted` and `deleted` pseudo-tables
-
----
-
-Author: *Your Name*
